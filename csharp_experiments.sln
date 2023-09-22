@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{7653C534-86B9-4283-A50F-70B178C83C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{7653C534-86B9-4283-A50F-70B178C83C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLabyrinth", "TestLabyrinth\TestLabyrinth.csproj", "{00609849-D455-4C6D-8031-17EDDCF6AD7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkLabyrinth", "BenchmarkLabyrinth\BenchmarkLabyrinth.csproj", "{4A74FB1B-E34E-4101-A682-33B644063746}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7653C534-86B9-4283-A50F-70B178C83C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7653C534-86B9-4283-A50F-70B178C83C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7653C534-86B9-4283-A50F-70B178C83C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00609849-D455-4C6D-8031-17EDDCF6AD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00609849-D455-4C6D-8031-17EDDCF6AD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00609849-D455-4C6D-8031-17EDDCF6AD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00609849-D455-4C6D-8031-17EDDCF6AD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A74FB1B-E34E-4101-A682-33B644063746}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{4A74FB1B-E34E-4101-A682-33B644063746}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4A74FB1B-E34E-4101-A682-33B644063746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A74FB1B-E34E-4101-A682-33B644063746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
