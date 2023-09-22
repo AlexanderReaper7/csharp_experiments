@@ -27,7 +27,7 @@ static class Program
         };
         var labyrinth = new Labyrinth(testMatrix);
         PrintLabyrinthAndSolutions(labyrinth);
-        Console.WriteLine(@"ref: →→↓↓←↓↓→→→ and →→↓↓←↓↓→→→ ");
+        Console.WriteLine(@"ref: →→↓↓←↓↓→→→ and →→↓↓→↓→↓ ");
         Console.WriteLine("Creating a new random Labyrinth...");
         labyrinth = new();
         PrintLabyrinthAndSolutions(labyrinth);

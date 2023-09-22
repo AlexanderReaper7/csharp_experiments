@@ -4,8 +4,8 @@ public class LabyrinthTests
 {
     private static readonly List<Solution> TestSolutions = new()
     {
-        new Solution { Sum = 16, Path = "→→↓↓←↓↓→→→".ToCharArray()},
         new Solution { Sum = 16, Path = "→→↓↓→↓→↓".ToCharArray()},
+        new Solution { Sum = 16, Path = "→→↓↓←↓↓→→→".ToCharArray()},
     };
 
     private static readonly int[,] TestMatrix =
@@ -39,10 +39,7 @@ public class LabyrinthTests
     [Fact]
     public void CorrectPaths()
     {
-        Console.WriteLine($"sol1:{solutions[0].Path.ToString()}");
-        Console.WriteLine($"sol2:{solutions[1].Path.ToString()}");
-
-        Assert.Contains(solutions.Select(x => x.Path), s => s == TestSolutions[0].Path);
-        Assert.Contains(solutions.Select(x => x.Path), s => s == TestSolutions[1].Path);
+        Assert.Equal(TestSolutions[0].Path, solutions[0].Path);
+        Assert.Equal(TestSolutions[1].Path, solutions[1].Path);
     }
 }
